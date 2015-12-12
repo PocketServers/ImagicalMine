@@ -116,7 +116,7 @@ class Item{
 	const BED_BLOCK = 26;
 	
 	const POWERED_RAIL = 27;
-	const DETECTOR_RAIL = 27;
+	const DETECTOR_RAIL = 29;
 	const STICKY_PISTON = 27;
 
 
@@ -325,6 +325,7 @@ class Item{
 	const DOUBLE_WOODEN_SLAB = 157;
 	const DOUBLE_WOOD_SLABS = 157;
 	const DOUBLE_WOODEN_SLABS = 157;
+	const ACTIVATOR_RAIL = 157;
 	const WOOD_SLAB = 158;
 	const WOODEN_SLAB = 158;
 	const WOOD_SLABS = 158;
@@ -1048,17 +1049,6 @@ class Item{
 		Item::addCreativeItem(Item::get(Item::POWERED_RAIL, 0));
 		Item::addCreativeItem(Item::get(Item::DETECTOR_RAIL, 0));
 		Item::addCreativeItem(Item::get(Item::ACTIVATOR_RAIL, 0));
-		Item::addCreativeItem(Item::get(Item::LEVER));
-		Item::addCreativeItem(Item::get(Item::REDSTONE_LAMP));
-		Item::addCreativeItem(Item::get(Item::REDSTONE_TORCH));
-		Item::addCreativeItem(Item::get(Item::WOODEN_PRESSURE_PLATE));
-		Item::addCreativeItem(Item::get(Item::STONE_PRESSURE_PLATE));
-		Item::addCreativeItem(Item::get(Item::LIGHT_WEIGHTED_PRESSURE_PLATE));
-		Item::addCreativeItem(Item::get(Item::HEAVY_WEIGHTED_PRESSURE_PLATE));
-		Item::addCreativeItem(Item::get(Item::WOODEN_BUTTON));
-		Item::addCreativeItem(Item::get(Item::STONE_BUTTON));
-		Item::addCreativeItem(Item::get(Item::DAYLIGHT_DETECTOR));
-		Item::addCreativeItem(Item::get(Item::TRIPWIRE_HOOK));
 		Item::addCreativeItem(Item::get(Item::TORCH, 0));
 		Item::addCreativeItem(Item::get(Item::BUCKET, 0));
 		Item::addCreativeItem(Item::get(Item::BUCKET, 1)); // milk
@@ -1155,6 +1145,20 @@ class Item{
 		Item::addCreativeItem(Item::get(Item::GOLD_CHESTPLATE));
 		Item::addCreativeItem(Item::get(Item::GOLD_LEGGINGS));
 		Item::addCreativeItem(Item::get(Item::GOLD_BOOTS));
+		
+		//Redstone Stuff
+		Item::addCreativeItem(Item::get(Item::LEVER));
+		Item::addCreativeItem(Item::get(Item::REDSTONE_LAMP));
+		Item::addCreativeItem(Item::get(Item::REDSTONE_TORCH));
+		Item::addCreativeItem(Item::get(Item::WOODEN_PRESSURE_PLATE));
+		Item::addCreativeItem(Item::get(Item::STONE_PRESSURE_PLATE));
+		Item::addCreativeItem(Item::get(Item::LIGHT_WEIGHTED_PRESSURE_PLATE));
+		Item::addCreativeItem(Item::get(Item::HEAVY_WEIGHTED_PRESSURE_PLATE));
+		Item::addCreativeItem(Item::get(Item::WOODEN_BUTTON));
+		Item::addCreativeItem(Item::get(Item::STONE_BUTTON));
+		Item::addCreativeItem(Item::get(Item::DAYLIGHT_DETECTOR));
+		Item::addCreativeItem(Item::get(Item::TRIPWIRE_HOOK));
+		
 		Item::addCreativeItem(Item::get(Item::SNOWBALL));
 	}
 	
