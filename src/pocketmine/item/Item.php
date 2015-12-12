@@ -117,6 +117,7 @@ class Item{
 	
 	const POWERED_RAIL = 27;
 	const DETECTOR_RAIL = 29;
+	const ACTIVATOR_RAIL = 157;
 	const STICKY_PISTON = 27;
 
 
@@ -325,7 +326,6 @@ class Item{
 	const DOUBLE_WOODEN_SLAB = 157;
 	const DOUBLE_WOOD_SLABS = 157;
 	const DOUBLE_WOODEN_SLABS = 157;
-	const ACTIVATOR_RAIL = 157;
 	const WOOD_SLAB = 158;
 	const WOODEN_SLAB = 158;
 	const WOOD_SLABS = 158;
