@@ -887,6 +887,9 @@ class Item{
 		Item::addCreativeItem(Item::get(Item::PACKED_ICE, 0));
 		Item::addCreativeItem(Item::get(Item::SNOW_BLOCK, 0));
 		Item::addCreativeItem(Item::get(Item::END_STONE, 0));
+		Item::addCreativeItem(Item::get(Item::GLOWING_OBSIDIAN, 0));
+		Item::addCreativeItem(Item::get(Item::NETHER_REACTOR, 1));
+		Item::addCreativeItem(Item::get(Item::GNETHER_REACTOR, 2));
 	}
 	
 	private static function decorationTab(){
